@@ -1,13 +1,24 @@
 .navbar {
   position: absolute;
-  width: 1440px;
-  height: 80px;
+  width: 100%;
   left: 0px;
   top: 0px;
 
   background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
 }
 
-ul {
-  text-decoration: none;
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255);
 }
+
+.tittle {
+  font-size: 30px;
+  line-height: 35.16px;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
