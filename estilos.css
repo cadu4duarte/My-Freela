@@ -98,8 +98,38 @@ h2 {
   background: white;
 }
 
+#form {
+  border: 1px solid blue;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 900px;
+  border: 1px solid black;
+}
+
 #form h1, p {
   color: black;
+}
+
+.campo1 {
+  border: 1px solid red;
+  display: inline-grid;
+  margin-left: 15px;
+  
+}
+
+.campo2 {
+  border: 1px solid red;
+  display: inline-grid;
+  margin-left: 15px;
+}
+
+.button { 
+  border: 1px solid red;
+  float: right;
+  padding: 15px;
+  margin-right: 200px;
 }
 
 
