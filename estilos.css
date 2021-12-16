@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,19 +19,18 @@
   width: 100%;
   left: 0px;
   top: 0px;
-
   background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
 }
+
+.navbar-brand {
+  font-size: 30px;
+}
+
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255,255,255);
 }
 
-.tittle {
-  font-size: 30px;
-  line-height: 35.16px;
-  color: white;
-}
 
 .nav-link {
   color: white;
@@ -43,50 +44,67 @@
 }
 
 .box {
-  border: 1px solid white;
+
   padding: 200px 20px;
-
 }
 
-p {
+.box p {
   color: white;
 }
 
-h1 {
+.box h1 {
   color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.box button {
+  background: #EE5253;
+  width: 290px;
+  height: 60px;
+  font-size: 22px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+}
+
+.box button:hover {
+  cursor: pointer;
+  background: #D92223;
 }
 
 #sec-section {
   display: flex;
-  border-bottom: 1px solid green;
   background: white;
 }
 
 h2 {
-  font-size: 40px;
-  
+  font-size: 50px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 30px;
 }
 
 #sec-section p {
-  color: black;
-  
+  color: #333333;
+  font-size: 22px;
 }
 
 #sec-section img {
   justify-content: right;
   width: 30%;
   padding: 100px 50px 0px 50px;
-  border: 1px solid blue;
+
   
 }
 
 .box2 {
   padding: 100px 50px 20px 250px;
-  border: 1px solid red;
+
 }
 
 #th-section {
-  border: 1px solid green;
+
   transform: skew(0deg) rotate(-4deg);
   background: #EAEAEA;
   width: 1400px;
@@ -98,43 +116,70 @@ h2 {
   background: white;
 }
 
-#form {
-  border: 1px solid blue;
-}
+
 
 fieldset {
   margin: 0 auto;
-  width: 900px;
-  border: 1px solid black;
+  width: 1200px;
 }
 
-#form h1, p {
-  color: black;
+fieldset h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333333;
+}
+
+fieldset p {
+  font-size: 22px;
+  color: #333333;
 }
 
 .campo1 {
-  border: 1px solid red;
   display: inline-grid;
   margin-left: 15px;
   
 }
 
 .campo2 {
-  border: 1px solid red;
+
   display: inline-grid;
   margin-left: 15px;
 }
 
+input {
+  width: 338px;
+  height: 60px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #CDCDCD;
+  box-sizing: border-box;
+}
+
 .button { 
-  border: 1px solid red;
   float: right;
-  padding: 15px;
-  margin-right: 200px;
+  padding: 30px 10px;
+  
+}
+
+fieldset button {
+  width: 304px;
+  height: 60px;
+  background: #10AC84;
+  border-radius: 8px;
+  margin-right: 150px;
+  border: none;
+  color: white;
 }
 
 
 footer {
-  height: 100px;
-  background: white;
-  
+  height: 90px;
+  background: #EAEAEA;
+  text-align: center;
+}
+
+footer div {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 40px
 }
