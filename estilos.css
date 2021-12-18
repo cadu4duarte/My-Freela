@@ -166,7 +166,7 @@ fieldset button {
   height: 60px;
   background: #10AC84;
   border-radius: 8px;
-  margin-right: 150px;
+  margin-right: 340px;
   border: none;
   color: white;
 }
@@ -282,4 +282,8 @@ footer div {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  fieldset button {
+    margin-right: 340px;
+  }
+}
