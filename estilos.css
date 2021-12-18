@@ -185,10 +185,42 @@ footer div {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+  #sec-section img {
+    padding: 150px 0px 0px 0px;
+ 
+  }
+
+  .box2 {
+    padding: 30px 10px 10px 10px;
+
+  }
+
+  fieldset h1 {
+    font-size: 40px;
+  }
+
+  fieldset p {
+    font-size: 20px;
+  }
+
+  input {
+    width: 200px;
+    
+  }
+
+  fieldset button {
+    width: 140px;
+    margin-right: 600px;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
